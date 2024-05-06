@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 99px;
+    background-color: #131921;
+}
+.header1{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hicon{
+    width: 128.73px;
+    height: 50px;
+    background-color: aliceblue;
+}
+.hicon2{
+    width: 123.66px;
+    height: 50px;
+    background-color: saddlebrown;
+
+}
+.hicon3{
+    width: 677.75px;
+    height: 40px;
+    background-color: wheat;
+
+}
+.hicon4{
+    width: 73.38px;
+    height: 50px;
+    background-color: antiquewhite;
+
+}
+.hicon5{
+    width: 131.53px;
+    height: 50px;
+    background-color: aqua;
+
+}
+.hicon6{
+    width: 76.95px;
+    height: 50px;
+    background-color: salmon;
+
+}
+.hicon7{
+    width: 84px;
+    height: 50px;
+    background-color: darkmagenta;
+
+}
+
+.header2{
+    width: 100%;
+    height: 39px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navicon{
+    width: 58px;
+    height: 39px;
+    background-color: hotpink;
+}
+.navicon2{
+    width: 64px;
+    height: 28px;
+    background-color: gold;
+}
+.navicon3{
+    width: 118px;
+    height: 28px;
+    background-color: lightcoral;
+}
+.navicon4{
+    width: 41px;
+    height: 28px;
+    background-color:khaki;
+}
+.navicon5{
+    width: 95px;
+    height: 28px;
+    background-color: lavenderblush;
+}
+.navicon6{
+    width: 81px;
+    height: 28px;
+    background-color: indianred;
+}
+.navicon7{
+    width: 81px;
+    height: 28px;
+    background-color: indigo;
+}
+.navicon8{
+    width: 240px;
+    height: 28px;
+    background-color: yellow;
+}
+.navicon9{
+    width: 71px;
+    height: 28px;
+    background-color: yellowgreen;
+}
+.navicon10{
+    width: 145px;
+    height: 28px;
+    background-color: teal;
+}
+.navicon11{
+    width: 56px;
+    height: 28px;
+    background-color: tan;
+}
+.navicon12{
+    width: 107px;
+    height: 28px;
+    background-color: red;
+}
+.navicon13{
+    width: 126px;
+    height: 28px;
+    background-color: white;
+}
+
+.section1{
+    width: 100%;
+    height: 220vh;
+    background-color: rgb(255, 0, 0);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.card{
+    
+    width: 350px;
+    height: 420px;
+    background-color: aqua;
+    margin: 10px;
+}
+
+.section2{
+    width: 100%;
+    height: 290px;
+    background-color: rgb(134, 13, 13);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    background-color: crimson;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.section3{
+    width: 100%;
+    height: 285px;
+    background-color: turquoise;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.product{
+    width: 160px;
+    height: 200px;
+    background-color: cornflowerblue;
+    margin: 10px;
+
+}
+
+.section4{
+    width: 100%;
+    height: 460px;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bestprod{
+    width: 310px;
+    height: 410px;
+    background-color: yellow;
+}
+
+
+.section5{
+    width: 100%;
+    height: 400px;
+    background-color: peachpuff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.hero{
+    width: 95%;
+    height: 300px;
+    background-color: peru;
+}
+
+
+.section6{
+    width: 100%;
+    height: 285px;
+    background-color:plum;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.woman{
+    width: 145px;
+    height: 200px;
+    background-color: lawngreen;
+}
+
+.section7{
+    width: 100%;
+    height: 450px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.prt{
+    width: 310px;
+    height: 420px;
+    background-color: chocolate;
+}
+
+.section8{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+
+}
+.section8 .pt12{
+    width: 435px;
+    height: 300px;
+    background-color: black;
+}
+.pt1{
+    width: 164px;
+    height: 280px;
+    background-color: gray;
+}
+
+.section9{
+    width: 100%;
+    height: 290px;
+    background-color: rgba(134, 13, 13, 0.541);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.circle1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(217, 220, 20);
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.section10{
+    width: 100%;
+    height: 720px;
+    background-color: coral;
+   
+}
+.books{
+    width: 100%;
+    height: 460px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.book{
+    width: 160px;
+    height: 370px;
+    background-color: rgb(255, 0, 255);
+}
+
+.wish{
+    width: 100%;
+    height: 260px;
+    background-color: firebrick;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+}
+
+.book1{
+    width: 200px;
+    height: 200px;
+    background-color: forestgreen;
+    margin-left: 40px;
+}
+
+.section11{
+    width: 100%;
+    height: 300px;
+    background-color: #007185;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.conta{
+    width: 156px;
+    height: 251px;
+    background-color: black;
+}
+
+.section12{
+    width: 100%;
+    height: 250px;
+    background-color: #131A22;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 75px;
+    height: 50px;
+    background-color: white;
+}
