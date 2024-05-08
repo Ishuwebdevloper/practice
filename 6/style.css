@@ -1,0 +1,52 @@
+@font-face {
+    font-family: graff;
+    src: url(./font/GraffitiUrban-Regular.otf),
+    url(./font/Light\ Stories.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(./font/Light\ Stories.ttf);
+}
+@font-face {
+    font-family: pretty;
+    src: url(./font/Pretty\ Kelly.ttf);
+}
+h1{
+    font-family: salium;
+    font-weight: 50;
+}
+h1{
+    font-family: ;
+    font-weight: 50;
+}
+h1{
+    font-family: ;
+    font-weight: 50;
+}
+h1{
+    font-family: ;
+    font-weight: 50;
+}
+h1{
+    font-family: ;
+    font-weight: 50;
+}
+h1{
+    font-family: ;
+    font-weight: 50;
+}
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
