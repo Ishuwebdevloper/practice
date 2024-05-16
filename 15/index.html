@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="contanier">
+    <div class="portfolio-menu">
+        <ul>
+            <li class="active" datatype="*">All</li>
+            <li data-filter=".web">Web Develoment</li>
+            <li data-filter=".seo">seo</li>
+            <li data-filter=".graphic">Graphic</li>
+        </ul>
+    </div>
+    <div class="portfolio-item">
+        <div class="item web">
+            <img src="2109.jpg" height="200">
+
+        </div>
+
+        <div class="item seo">
+            <img src="130752.jpg" height="200">
+
+        </div>
+
+
+        <div class="item graphic">
+            <img src="1121421.jpg" height="200">
+
+        </div>
+
+
+        <div class="item web">
+            <img src="2355620.jpg" height="200">
+
+        </div>
+
+        <div class="item seo">
+            <img src="2661458.jpg" height="200">
+
+        </div>
+
+        <div class="item seo">
+            <img src="ps5.png" height="200">
+
+        </div>
+
+
+        <div class="item graphic">
+            <img src="desktop-1920x1080.jpg" height="200">
+
+        </div>
+
+        <div class="item graphic">
+            <img src="wallpaperflare.com_wallpaper.jpg" height="200">
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<script src="jquery.min.js"></script>
+
+<script src="isotope-docs.min.js"></script>
+
+
+<script>
+
+    $('.portfolio-item').isotope({
+        // options
+        itemSelector: '.item',
+        layoutMode: 'fitRows'
+    });
+
+    $('.portfolio-menu ul li').click(function () {
+        $('.portfolio-menu ul li').removeClass('active');
+        $(this).addClass('active');
+
+        var selector = $(this).attr('data-filter');
+        $('.portfolio-item').isotope({
+            filter: selector
+        });
+        return false;
+    });
+
+
+</script>
+
+</body>
+</html>
