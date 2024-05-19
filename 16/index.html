@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>img2</title>
+</head>
+<body>
+        <!-- main screen -->
+        <div class="main">
+            
+            <img id="screen" src="img/1.jpg" alt="" width="850px" height="500px">
+            
+        </div>
+        <div class="mainbuttons">
+            <button id="prev">Prev</button> | <button id="next">Next</button>
+        </div>
+    
+    <hr>
+    <br>
+
+        <!-- Photos -->
+    <img class="thumbnail-skote" id="thumbnail_1" data-imgid="0" src="img/1.jpg" alt="" width="300px" height="300px">
+    <img class="thumbnail-skote" id="thumbnail_2" data-imgid="1" src="img/2.jpg" alt="" width="300px" height="300px">
+    <img class="thumbnail-skote" id="thumbnail_3" data-imgid="2" src="img/3.jpg" alt="" width="300px" height="300px">
+    <img class="thumbnail-skote" id="thumbnail_4" data-imgid="3" src="img/4.jpg" alt="" width="300px" height="300px">
+    <img class="thumbnail-skote" id="thumbnail_5" data-imgid="4" src="img/5.jpg" alt="" width="300px" height="300px">
+    <img class="thumbnail-skote" id="thumbnail_6" data-imgid="5" src="img/6.jpg" alt="" width="300px" height="300px">
+    <img class="thumbnail-skote" id="thumbnail_7" data-imgid="6" src="img/7.jpg" alt="" width="300px" height="300px">
+    <img class="thumbnail-skote" id="thumbnail_8" data-imgid="7" src="img/8.jpg" alt="" width="300px" height="300px">
+    <img class="thumbnail-skote" id="thumbnail_9" data-imgid="8" src="img/9.jpg" alt="" width="300px" height="300px">
+    <img class="thumbnail-skote" id="thumbnail_10" data-imgid="9" src="img/10.jpg" alt="" width="300px" height="300px">
+    <img class="thumbnail-skote" id="thumbnail_11" data-imgid="10" src="img/11.jpg" alt="" width="300px" height="300px">
+    <img class="thumbnail-skote" id="thumbnail_12" data-imgid="11" src="img/12.jpg" alt="" width="300px" height="300px">
+
+        <script>
+            
+            var num = 1;
+             
+            function prevImg(){
+                num--;
+                if(num < 1){
+                    num = 13;
+                }
+                document.querySelector("#screen").src = "img/"+num+".jpg";
+            }
+                
+
+
+
+            function nextImg(){
+                num++;
+                if(num === 13){
+                    num = 1;
+                }
+                document.querySelector("#screen").src = "img/"+num+".jpg";
+
+            }
+
+
+            document.querySelector("#prev").onclick = prevImg;
+            document.querySelector("#next").onclick = nextImg;
+
+
+
+
+
+            
+            //  Screen Function
+            function changeImg(){
+                document.querySelector("#screen").src=this.src;
+                num = Number(this.dataset.imgid) + 1;
+
+                console.log(num);
+            
+            
+            }
+
+
+            // photos click function
+
+            document.querySelector("#thumbnail_1").onclick = changeImg
+            document.querySelector("#thumbnail_2").onclick = changeImg
+            document.querySelector("#thumbnail_3").onclick = changeImg
+            document.querySelector("#thumbnail_4").onclick = changeImg
+            document.querySelector("#thumbnail_5").onclick = changeImg
+            document.querySelector("#thumbnail_6").onclick = changeImg
+            document.querySelector("#thumbnail_7").onclick = changeImg
+            document.querySelector("#thumbnail_8").onclick = changeImg
+            document.querySelector("#thumbnail_9").onclick = changeImg
+            document.querySelector("#thumbnail_10").onclick = changeImg
+            document.querySelector("#thumbnail_11").onclick = changeImg
+            document.querySelector("#thumbnail_12").onclick = changeImg
+        </script>
+
+    
+</body>
+</html>
